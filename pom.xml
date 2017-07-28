@@ -16,6 +16,7 @@
         <module>ribbon-demo</module>
         <module>feign-demo</module>
         <module>zuul-demo</module>
+        <module>config-center-demo</module>
     </modules>
 
     <properties>

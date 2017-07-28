@@ -1,0 +1,17 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: config-center-demo
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.coding.net/wynn-5a/config_center.git
+          search-paths: config
+          username: xxx
+          password: xxx
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
