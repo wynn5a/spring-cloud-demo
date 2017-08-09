@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: sidecar-demo
+sidecar:
+  port: 3000
+  health-uri: http://localhost:3000/health
+server:
+  port: 8899

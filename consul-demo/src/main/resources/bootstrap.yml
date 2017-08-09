@@ -1,0 +1,10 @@
+server:
+  port: 8762
+spring:
+  cloud:
+    consul:
+      host: 172.16.78.111
+      port: 8500
+      discovery:
+        healthCheckInterval: 15s
+        prefer-ip-address: true
